@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #D9E8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text_logo{
+    width: 30%;
+}
+.panel {
+    padding: 1.5% 3% 1.5% 3%;
+  
+    margin-top: 5%;
+    width: 85%;
+    height: 6.5rem;
+    background: #58B5E9;
+    border-radius: 30px;
+    
+}
+.clothes_type{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 50%;
+}
+.text{
+    width: 65%;
+    text-align: center;
+    color: white;
+    font-size: 130%;
+}
+.addition_square{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-height: 90%;
+    height: auto;
+}
+.png {
+    max-height: 90%;
+    height: auto;
+}
+.wardrobe_filling {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 50%;
+}
+
+.camera {
+    width: 22%;
+}

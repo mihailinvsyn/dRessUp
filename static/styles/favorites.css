@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #D9E8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text_logo{
+    width: 30%;
+}
+.cell{
+    height: 10em;
+}
+.cell_item {
+    max-height: 90%;
+}

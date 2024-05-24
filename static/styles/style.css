@@ -1,9 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
 * {
     margin: 0;
 }
+
 body {
-    background-image: url('фон.jpg');
+	margin: 0px;
+	padding: 0px;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+    background-image: url('../img/background.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	min-height: 668px;
+	position: relative;
+	-webkit-background-size: cover;
+    background-size: 180% auto;
 }
-p {
-    color: brown;
-} 
+.content {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 15%;
+    width: 70%;
+    
+   
+}
+
+.logo{
+    width: 25%;
+}
+.welcome{
+    color: white;
+    font-family: stylish, serif;
+    font-size: 1.8em;
+}
+
+.input{
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #F9EFF7;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.but{
+    padding: 5% 0 5% 0;
+    margin-top: 10%;
+    font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background-color: #F73838;
+    border-radius: 20px ;
+    color: white;
+    border: 0;
+    text-align: center;
+    width: 70%;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
